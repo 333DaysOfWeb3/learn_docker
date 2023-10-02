@@ -20,7 +20,9 @@ Docker allows us
 
 ## What is a container?
 
-    A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
+    A container is a standard unit of software that packages up
+    code and all its dependencies so the application runs quickly
+    and reliably from one computing environment to another.
 
     -- Docker
 
@@ -112,12 +114,15 @@ Commands:
   wait        Block until one or more containers stop, then print their exit codes
 
 Global Options:
-      --config string      Location of client config files (default "/home/sylwia/.docker")
-  -c, --context string     Name of the context to use to connect to the daemon (overrides DOCKER_HOST env var and
-                           default context set with "docker context use")
+      --config string      Location of client config files 
+                           (default "/home/sylwia/.docker")
+  -c, --context string     Name of the context to use to connect to
+                           the daemon (overrides DOCKER_HOST env var 
+                           and default context set with "docker context use")
   -D, --debug              Enable debug mode
   -H, --host list          Daemon socket to connect to
-  -l, --log-level string   Set the logging level ("debug", "info", "warn", "error", "fatal") (default "info")
+  -l, --log-level string   Set the logging level 
+                           ("debug", "info", "warn", "error", "fatal") (default "info")
       --tls                Use TLS; implied by --tlsverify
       --tlscacert string   Trust certs signed only by this CA (default "/home/sylwia/.docker/ca.pem")
       --tlscert string     Path to TLS certificate file (default "/home/sylwia/.docker/cert.pem")
